@@ -62,7 +62,7 @@ pip install -r requirements.txt
 BOT_TOKEN = "ВАШ-ТОКЕН-БОТА"  # Получить: @BotFather
 
 # SNAPI настройки (ваш выданный API)
-SNAPI_URL = "https://snapi.fun/api/api-keys/v1"
+SNAPI_URL = "https://snapi.fun/api/api-keys"
 API_KEY = "ВАШ-АПИ-SNAPI"  # Получить: @snapi
 ```
 
@@ -288,7 +288,7 @@ API_KEY = os.getenv('SNAPI_API_KEY', 'default_api_key')
 
 ## 🏷️ Версии
 
-### v1.0.0 (2025-05-28)
+### v2.0.0 (2025-05-28)
 - ✨ Первый релиз
 - 🤖 Базовая функциональность бота
 - 📡 Интеграция со всеми SNAPI endpoints
