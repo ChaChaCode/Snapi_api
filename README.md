@@ -1,10 +1,4 @@
-![image](https://github.com/user-attachments/assets/c2222d7d-4110-4aa0-b265-33b76466492c)# 🤖 SNAPI Integration Test Bot
-
-![image](https://github.com/user-attachments/assets/6553e95b-a83b-4a73-80a2-ebce8cc39a17)
-![image](https://github.com/user-attachments/assets/0612b986-aac9-4439-b38c-a87279a765a7)
-![image](https://github.com/user-attachments/assets/53d9e97f-1873-441f-b547-6bec61113130)
-![image](https://github.com/user-attachments/assets/7d04e788-2061-42f2-9164-6bf1639bf3fd)
-![image](https://github.com/user-attachments/assets/8dc517e5-fb62-4263-ae99-6af6e1e6f3b5)
+# 🤖 SNAPI Integration Test Bot
 
 
 Готовый к использованию тестовый Telegram бот для демонстрации работы с **SNAPI Integration API**. 
