@@ -11,7 +11,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 BOT_TOKEN = "ВАШ-ТОКЕН-БОТА"
 
 # SNAPI настройки (ваш выданный API)
-SNAPI_URL = "https://snapi.fun/api/api-keys/v1"
+SNAPI_URL = "https://snapi.fun/api/api-keys"
 API_KEY = "ВАШ-АПИ-SNAPI"
 
 # Логирование
@@ -52,7 +52,7 @@ async def check_user_dialog(user_id: int) -> dict:
         return {"status": "error", "message": f"Ошибка подключения: {str(e)}"}
 
 async def get_api_info() -> dict:
-    """Получает информацию об API через endpoint GET /v1/api-info"""
+    """Получает информацию об API через endpoint GET /api-info"""
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(
@@ -79,7 +79,7 @@ async def get_api_info() -> dict:
         return {"status": "error", "message": f"Ошибка подключения: {str(e)}"}
 
 async def get_usage_stats() -> dict:
-    """Получает статистику использования через endpoint GET /v1/usage-stats"""
+    """Получает статистику использования через endpoint GET /usage-stats"""
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(
